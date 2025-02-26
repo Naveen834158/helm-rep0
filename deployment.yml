@@ -4,7 +4,7 @@ kind: Deployment
 metadata: 
   name: flm
 spec:
-  replicase: 3
+  replicase: 4
   selector:
     matchLabels:
       app: swiggy
